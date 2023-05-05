@@ -1,3 +1,6 @@
 [alias]
     # short log
     slog = log --oneline -10
+
+    # unstage all staged changes
+    ra = restore --staged .
