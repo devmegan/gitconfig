@@ -11,6 +11,17 @@
     # specific file log
     flog = log --follow
 
+    ### DIFF ###
+
+    # diff working tree and last commit
+    dh = diff head
+
+    # show compact diff
+    dstat = diff --stat
+
+    # show colour diff
+    dcol = diff --color-words
+
     ### STAGING & COMMITS ###
 
     # unstage all staged changes
