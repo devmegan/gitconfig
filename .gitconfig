@@ -1,6 +1,20 @@
 [alias]
+
+    ### LOG ###
+
     # short log
     slog = log --oneline -10
 
+    # graph log
+    glog = log --graph --decorate --oneline --abbrev-commit
+
+    # specific file log
+    flog = log --follow
+
+    ### STAGING & COMMITS ###
+
     # unstage all staged changes
     ra = restore --staged .
+
+    # commit with msg
+    c = commit -m
