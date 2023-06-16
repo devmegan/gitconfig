@@ -1,3 +1,7 @@
+[user]
+        name = <username>
+        email = <email>
+
 [alias]
 
     ### LOG ###
